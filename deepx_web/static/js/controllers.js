@@ -84,6 +84,13 @@ app.controller('HomeController', function($scope, $window) {
 
   $scope.papers = [
     {
+        name: 'Dance Dance Convolution',
+        short: 'ddc',
+        link: 'https://arxiv.org/abs/1606.03490',
+        authors: 'Chris Donahue, Zachary C. Lipton, Julian McAuley',
+        other: '',
+    },
+    {
         name: 'The Mythos of Model Interpretability',
         short: 'clinical',
         link: 'https://arxiv.org/abs/1606.03490',
