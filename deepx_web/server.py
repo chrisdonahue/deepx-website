@@ -6,7 +6,6 @@ import random
 from path import Path
 from util import jsonp
 from flask import Flask, jsonify, redirect
-from beermind import Beermind
 from webargs import fields
 from webargs.flaskparser import use_args
 
@@ -21,9 +20,6 @@ class Server(object):
         self.data_dir = Path(data_dir)
 
         self.app = Flask(__name__, static_url_path='', static_folder='static/')
-
-        self.beermind = Beermind(self.model_dir,
-                                 self.data_dir)
 
 
     def listen(self):

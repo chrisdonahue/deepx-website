@@ -22,3 +22,6 @@ def main():
     server.initialize()
     logging.info("Server running...")
     server.listen()
+
+if __name__ == '__main__':
+    main()
