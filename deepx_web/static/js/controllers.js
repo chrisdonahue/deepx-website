@@ -79,10 +79,21 @@ app.controller('HomeController', function($scope, $window) {
       href: "home.beermind",
       backgroundImage: "/img/beer.jpg"
     },
+    {
+      name: "DDC",
+      href_absolute: "/ddc",
+      backgroundImage: "/img/ddc.jpg"
+    },
   ];
 
 
   $scope.papers = [
+    {
+        name: 'Dance Dance Convolution',
+        short: 'ddc',
+        link: '',
+        authors: 'Chris Donahue, Zachary C. Lipton, Julian McAuley'
+    },
     {
         name: 'The Mythos of Model Interpretability',
         short: 'clinical',
